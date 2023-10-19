@@ -96,7 +96,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #545454;
+  color: #000000;
+  font-family: 'revert;
 }
 
 body {
@@ -408,7 +409,7 @@ header .nav-col .navbad li {
   }
 }
 header .nav-col .navbad li a {
-  color: #686968 !important;
+  color: #000000 !important;
   border: 1px solid #ccc;
   border-radius: 50px;
 }
@@ -637,7 +638,7 @@ header .small-menu {
   line-height: 27px;
   font-weight: 500;
   text-align: justify;
-  font-size: 0.9rem;
+  color: #000;
 }
 .about-us .image-part .about-quick-box .about-qcard {
   padding: 50px 30px;
@@ -651,6 +652,7 @@ header .small-menu {
 .about-us .image-part .about-quick-box .about-qcard p {
   font-weight: 600;
   font-size: 1.2rem;
+      color: black;
 }
 .about-us .image-part .about-quick-box .about-qcard i {
   font-size: 3rem;
@@ -802,6 +804,7 @@ header .small-menu {
 .our-blog .single-blog p {
   text-align: justify;
   text-indent: 20px;
+  color: #000;
 }
 
 .our-blog .single-blog .link a {
@@ -1028,17 +1031,15 @@ header .small-menu {
   margin-bottom: 30px;
 }
 
-/*# sourceMappingURL=style.css.map */
-/* Custom styling for the sub-menus */
 .custom-dropdown {
   background-color: #f8f9fa; /* Background color */
   border: none; /* Remove the default border */
-  border-radius: 10px; /* Add rounded corners */
+  border-radius: 5px; /* Add rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
 .custom-dropdown a {
-  color: #333; /* Text color */
+  color: #000000; /* Text color */
   text-decoration: none; /* Remove underlines */
 }
 
