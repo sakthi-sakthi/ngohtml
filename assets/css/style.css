@@ -469,16 +469,15 @@ header .small-menu {
   .slider-captions {
     bottom: 100px !important;
   }
-  
+
   width: 90%;
   text-align: center;
   float: none;
+  margin: auto;
+  .slider-captions .slider-title {
+    font-size: 42px;
+  }
 }
-
-.slider-captions .slider-title {
-  font-size: 42px;
-}
-
 @media screen and (max-width: 810px) {
   .slider-captions {
     bottom: 50px !important;
@@ -528,6 +527,14 @@ header .small-menu {
 .slider-img img {
   position: relative;
   z-index: -1;
+  height: 50rem !important;
+}
+
+@media (max-width: 768px) {
+  .slider-img img {
+    height: 12rem !important;
+    max-width: 100%;
+  }
 }
 
 .slider .owl-nav .owl-prev,
